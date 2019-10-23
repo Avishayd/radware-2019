@@ -17,7 +17,7 @@ print(p1.greet())
 print(p2.greet())
 
 
-class Employee():
+class Employee(Person):
 
     def __init__(self, name, id_number):
         self.name = name
