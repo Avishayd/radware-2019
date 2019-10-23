@@ -30,8 +30,8 @@ class Bowl():
         #     output.append(one_scoop.flavor)
         # return ',' .join(output)
 
-        [one_scoop.flavor
-         for one_scoop in self.scoops]
+        return ', '.join([one_scoop.flavor
+                          for one_scoop in self.scoops])
 
 
 b = Bowl()
