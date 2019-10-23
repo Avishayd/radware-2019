@@ -3,7 +3,7 @@
 from typing import List, Tuple, Union, Sequence
 
 
-def mysum(numbers: Union[List[int], Tuple[int]]):
+def mysum(numbers: Sequence[int]):
     total = 0
     for one_number in numbers:
         total += one_number
