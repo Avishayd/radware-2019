@@ -47,6 +47,27 @@ b.add_scoops(s3, s4, s5, s6)
 print(b.flavors())  # 'chocolate, vanilla, coffee'
 
 
+class Bowl():
+    max_scoops = 3
+
+    def __init__(self):
+        self.scoops = []
+
+    def add_scoops(self, *args):
+        for one_scoop in args:
+            if len(self.scoops) < Bowl.max_scoops:
+                self.scoops.append(one_scoop)
+
+    def flavors(self):
+        # output = []
+        # for one_scoop in self.scoops:
+        #     output.append(one_scoop.flavor)
+        # return ',' .join(output)
+
+        return ', '.join([one_scoop.flavor
+                          for one_scoop in self.scoops])
+
+
 bb = BigBowl()
 bb.add_scoops(s1, s2)
 bb.add_scoops(s3)
