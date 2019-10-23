@@ -56,3 +56,12 @@ bb.add_scoops(s1, s2)
 bb.add_scoops(s3)
 bb.add_scoops(s3, s4, s5, s6)
 print(bb.flavors())  # 'chocolate, vanilla, coffee, flavor 4, flavor 5'
+
+
+print(s1)    # Scoop of chocolate
+print(b)
+
+Bowl of:
+    (1) Scoop of chocolate
+    (2) Scoop of vanilla
+    (3) Scoop of coffee
