@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from typing import List, Tuple, Union
+from typing import List, Tuple, Union, Sequence
 
 
 def mysum(numbers: Union[List[int], Tuple[int]]):
