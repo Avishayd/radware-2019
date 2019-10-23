@@ -1,6 +1,11 @@
 #!/usr/bin/env python3
 
 
+class Scoop():
+    def __init__(self, flavor):
+        self.flavor = flavor
+
+
 s1 = Scoop('chocolate')
 s2 = Scoop('vanilla')
 s3 = Scoop('coffee')
