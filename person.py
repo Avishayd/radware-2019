@@ -6,7 +6,7 @@ class Person():
 
     def __init__(self, name):
         self.name = name
-        self.population += 1
+        self.population = self.population + 1
 
     def greet(self):
         return f"Hello, {self.name}"
