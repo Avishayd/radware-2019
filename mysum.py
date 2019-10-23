@@ -3,7 +3,7 @@
 from typing import List
 
 
-def mysum(numbers: list):
+def mysum(numbers: List[int]):
     total = 0
     for one_number in numbers:
         total += one_number
