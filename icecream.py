@@ -50,11 +50,6 @@ print(b.flavors())  # 'chocolate, vanilla, coffee'
 class BigBowl(Bowl):
     max_scoops = 5
 
-    def add_scoops(self, *args):
-        for one_scoop in args:
-            if len(self.scoops) < BigBowl.max_scoops:
-                self.scoops.append(one_scoop)
-
 
 bb = BigBowl()
 bb.add_scoops(s1, s2)
