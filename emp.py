@@ -23,9 +23,6 @@ class Employee(Person):
         self.name = name
         self.id_number = id_number
 
-    def greet(self):
-        return f"Hello, {self.name}"
-
 
 e1 = Employee('emp1', 1)
 e2 = Employee('emp2', 2)
