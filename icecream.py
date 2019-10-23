@@ -45,3 +45,9 @@ b.add_scoops(s1, s2)
 b.add_scoops(s3)
 b.add_scoops(s3, s4, s5, s6)
 print(b.flavors())  # 'chocolate, vanilla, coffee'
+
+bb = BigBowl()
+bb.add_scoops(s1, s2)
+bb.add_scoops(s3)
+bb.add_scoops(s3, s4, s5, s6)
+print(bb.flavors())  # 'chocolate, vanilla, coffee'
