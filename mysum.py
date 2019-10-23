@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 
-def mysum(numbers):
+def mysum(numbers: list):
     total = 0
     for one_number in numbers:
         total += one_number
@@ -9,4 +9,5 @@ def mysum(numbers):
 
 
 print(mysum([10, 20, 30]))
+print(mysum('abcd'))
 print(mysum([10, 'abc', 30]))
