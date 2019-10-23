@@ -6,8 +6,9 @@ population = 0
 
 class Person():
     def __init__(self, name):
+        global population
         self.name = name
-        population = population + 1
+        population += 1
 
     def greet(self):
         return f"Hello, {self.name}"
