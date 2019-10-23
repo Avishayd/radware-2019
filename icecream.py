@@ -69,6 +69,7 @@ print(bb.flavors())  # 'chocolate, vanilla, coffee, flavor 4, flavor 5'
 print(s1)
 
 print(b)
+print(bb)
 # Bowl of:
 #     (1) Scoop of chocolate
 #     (2) Scoop of vanilla
