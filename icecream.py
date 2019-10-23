@@ -44,7 +44,7 @@ class Bowl():
 
     def __repr__(self):
         output = 'Bowl of: \n'
-        return output + '\n'.join(['\t' + str(one_scoop)
+        return output + '\n'.join([f'\t{index}: {one_scoop}'
                                    for index, one_scoop in enumerate(self.scoops, 1)])
 
 
