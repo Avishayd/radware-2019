@@ -24,6 +24,12 @@ class Bowl():
         for one_scoop in args:
             self.scoops.append(one_scoop)
 
+    def flavors(self):
+        output = ''
+        for one_scoop in self.scoops:
+            output += f'{one_scoop.flavor} '
+        return output
+
 
 b = Bowl()
 b.add_scoops(s1, s2)
