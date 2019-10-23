@@ -20,6 +20,7 @@ print(p2.greet())
 class Employee(Person):
 
     def __init__(self, name, id_number):
+
         self.id_number = id_number
 
 
