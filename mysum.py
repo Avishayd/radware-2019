@@ -9,4 +9,4 @@ def mysum(numbers: list):
 
 
 print(mysum([10, 20, 30]))
-print(mysum('abcd'))
+print(mysum(5))
