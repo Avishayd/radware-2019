@@ -20,6 +20,8 @@ for one_scoop in [s1, s2, s3]:
 
 
 class Bowl():
+    max_scoops = 3
+
     def __init__(self):
         self.scoops = []
 
