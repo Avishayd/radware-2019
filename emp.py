@@ -9,9 +9,6 @@ class Person():
     def greet(self):
         return f"Hello, {self.name}"
 
-    def __del__(self):
-        print(f'I am dead!: {self.name}')
-
 
 p1 = Person('name1')
 p2 = Person('name2')
