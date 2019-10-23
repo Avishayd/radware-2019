@@ -2,6 +2,8 @@
 
 
 class Person():
+    population = 0
+
     def __init__(self, name):
         self.name = name
         Person.population += 1
@@ -9,8 +11,6 @@ class Person():
     def greet(self):
         return f"Hello, {self.name}"
 
-
-Person.population = 0
 
 print(f"Before, population = {Person.population}")
 p1 = Person('name1')
