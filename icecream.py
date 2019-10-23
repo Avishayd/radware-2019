@@ -16,6 +16,15 @@ for one_scoop in [s1, s2, s3]:
     print(one_scoop.flavor)
 
 
+class Bowl():
+    def __init__(self):
+        self.scoops = []
+
+    def add_scoops(self, *args):
+        for one_scoop in args:
+            self.scoops.append(one_scoop)
+
+
 b = Bowl()
 b.add_scoops(s1, s2)
 b.add_scoops(s3)
