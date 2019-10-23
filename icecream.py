@@ -43,8 +43,9 @@ class Bowl():
                           for one_scoop in self.scoops])
 
     def __repr__(self):
-        return '\n'.join([str(one_scoop)
-                          for one_scoop in self.scoops])
+        output = 'Bowl of: \n'
+        return output + '\n'.join(['\t' + str(one_scoop)
+                                   for one_scoop in self.scoops])
 
 
 b = Bowl()
