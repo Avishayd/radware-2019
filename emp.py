@@ -30,5 +30,5 @@ class Employee():
 e1 = Employee('emp1', 1)
 e2 = Employee('emp2', 2)
 
-print(p1.greet())
-print(p2.greet())
+print(e1.greet())
+print(e2.greet())
