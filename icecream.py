@@ -14,3 +14,9 @@ print(s1.flavor)  # should print "chocolate"
 
 for one_scoop in [s1, s2, s3]:
     print(one_scoop.flavor)
+
+
+b = Bowl()
+b.add_scoops(s1, s2)
+b.add_scoops(s3)
+print(b.flavors())  # 'chocolate, vanilla, coffee'
