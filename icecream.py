@@ -48,6 +48,7 @@ print(b.flavors())  # 'chocolate, vanilla, coffee'
 
 
 class BigBowl(Bowl):
+    print(max_scoops)
     max_scoops = 5
 
 
