@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 
-from typing import List
+from typing import List, Tuple, Union
 
 
-def mysum(numbers: List[int]):
+def mysum(numbers: Union[List[int], Tuple[int]]):
     total = 0
     for one_number in numbers:
         total += one_number
