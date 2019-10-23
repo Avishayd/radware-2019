@@ -47,7 +47,7 @@ b.add_scoops(s3, s4, s5, s6)
 print(b.flavors())  # 'chocolate, vanilla, coffee'
 
 
-class BigBowl():
+class BigBowl(Bowl):
     max_scoops = 5
 
     def __init__(self):
