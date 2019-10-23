@@ -17,3 +17,5 @@ print(mysum([10, 'abc', 30]))
 x: Union[int, str, List[int]] = 100
 x = 'abcd'
 x = [10, 20, 30]
+
+# mypy-lang.com
