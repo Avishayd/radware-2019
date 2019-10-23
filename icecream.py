@@ -43,7 +43,7 @@ class Bowl():
                           for one_scoop in self.scoops])
 
     def __repr__(self):
-        output = 'Bowl of: \n'
+        output = f'{self.__class__.__name__} of: \n'
         return output + '\n'.join([f'\t({index}) {one_scoop}'
                                    for index, one_scoop in enumerate(self.scoops, 1)])
 
