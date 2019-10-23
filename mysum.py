@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+from typing import List
+
 
 def mysum(numbers: list):
     total = 0
