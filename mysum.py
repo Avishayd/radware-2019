@@ -11,4 +11,5 @@ def mysum(numbers: List[int]):
 
 
 print(mysum([10, 20, 30]))
+print(mysum((10, 20, 30)))
 print(mysum([10, 'abc', 30]))
