@@ -27,7 +27,8 @@ class Bowl():
 
     def add_scoops(self, *args):
         for one_scoop in args:
-            self.scoops.append(one_scoop)
+            if len(self.scoops) < Bowl.max_scoops:
+                self.scoops.append(one_scoop)
 
     def flavors(self):
         # output = []
